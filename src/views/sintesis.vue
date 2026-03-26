@@ -2,15 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    p.mb-5(data-aos="fade-right") En resumen, el costeo de procesos logísticos es esencial para gestionar los costos operativos en la cadena de suministro. La contabilidad de costos asigna los costos de forma precisa, distinguiendo entre costos fijos y variables. Los presupuestos planifican ingresos y gastos, garantizando el cumplimiento de metas y la alineación estratégica. Los estados financieros oficiales reflejan la salud financiera y son importantes para declaraciones y stakeholders. A continuación, se presenta un esquema que aborda estos aspectos.
+
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
-      .col-auto
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Resumen que se hace mediante un mapa conceptual los temas abordados en el componente y que son necesarios conocer y manejar para gestionar los costos operativos en la cadena de suministro que implica conocer de costos, planeación de presupuestos, estados financieros entre otros temas.")
+      .col-auto(data-aos="fade-left")
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/bullets/icono-pdf.svg")
+            img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
 
